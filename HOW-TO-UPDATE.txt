@@ -12,7 +12,9 @@ The catalog is checked once per app session, when Merch is first opened.
 Restart the app to receive later catalog changes.
 
 FUTURE ITEM WORKFLOW (NO NEW APK FOR COMPATIBLE MERCH CONTENT)
-1. Import the new model and textures into this Unity project.
+1. Open LiveSocial > Remote Merch > Open Merch Workshop.
+   This separate scene keeps prepared models out of your actual world scenes.
+   Import the new model and textures into this Unity project.
 2. Set its material, texture, emission, rotation and scale exactly how you want it.
    Place it at the intended display position beside the LS New Menu merch page.
    Keep this prepared model outside the existing ItemN_Wrapper list.
@@ -36,9 +38,10 @@ APPEARANCE AND PLACEMENT
 The prepared model's relative placement, mesh, textures, material properties and
 emission settings are packaged together. A compensation hierarchy preserves the
 authored size despite the menu's very different local axis scales.
-The source material is not edited. The source scene dress remains editable.
-The original dress is marked EditorOnly, so it does not appear permanently over
-the carousel or get included a second time in the APK.
+The source material is not edited. The editable dress lives in Merch Workshop,
+not Landing. It is also saved as a source prefab in Assets/RemoteMerch/Authoring/Models.
+The workshop is excluded from Build Settings. Its models are marked EditorOnly,
+so authoring copies do not appear over the carousel or ship twice in the APK.
 Supported content: Transform, MeshFilter, MeshRenderer, SkinnedMeshRenderer.
 The existing SlowRotate behavior is captured as metadata and restored by the app.
 This is a merch display loader, not a wearable/avatar inventory system.
