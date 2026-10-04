@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "contentVersion":  "20261004-124609",
+    "contentVersion":  "20261004-124918",
     "unityVersion":  "6000.3.17f1",
     "platform":  "Android",
     "items":  [
@@ -27,14 +27,14 @@
                       "id":  "lsvr-karaoke-long-sleeve",
                       "title":  "LSVR Karaoke Long Sleeve",
                       "enabled":  true,
-                      "bundleUrl":  "https://github.com/crookonoculus/LSVR-Merch-Catalog/releases/download/lsvr-karaoke-long-sleeve-c4fc95f82fe7/lsvr-karaoke-long-sleeve.bundle",
-                      "sha256":  "c4fc95f82fe75137f4c854deb0fce136e4b22174fa58381f6ed7ea0270ccb36a",
-                      "bytes":  764093,
-                      "crc":  1006307814,
+                      "bundleUrl":  "https://github.com/crookonoculus/LSVR-Merch-Catalog/releases/download/lsvr-karaoke-long-sleeve-00b83e8c73d6/lsvr-karaoke-long-sleeve.bundle",
+                      "sha256":  "00b83e8c73d66a901c05f316a8939f6099ae58f0b75c8b8b29c5dd9512ccfaf0",
+                      "bytes":  764124,
+                      "crc":  552894880,
                       "assetName":  "assets/remotemerch/content/lsvr-karaoke-long-sleeve/display.prefab",
                       "purchaseUrl":  "",
                       "purchaseEnabled":  false,
-                      "rotate":  false,
+                      "rotate":  true,
                       "rotationAxis":  {
                                            "x":  0.0,
                                            "y":  1.0,
