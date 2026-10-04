@@ -1,0 +1,77 @@
+LSVR REMOTE MERCH
+
+Repository
+https://github.com/crookonoculus/LSVR-Merch-Catalog
+
+FIRST TEST
+One new Android APK is required to install the remote loader. Existing APKs cannot
+download this new catalog. After installing that APK, open LS New Menu > Merch.
+Your existing 23 items stay available. The first downloadable item, LSVR IP Karaoke
+Dress - Back, is appended after them. From the first item, press Back to see it.
+The catalog is checked once per app session, when Merch is first opened.
+Restart the app to receive later catalog changes.
+
+FUTURE ITEM WORKFLOW (NO NEW APK FOR COMPATIBLE MERCH CONTENT)
+1. Import the new model and textures into this Unity project.
+2. Set its material, texture, emission, rotation and scale exactly how you want it.
+   Place it at the intended display position beside the LS New Menu merch page.
+   Keep this prepared model outside the existing ItemN_Wrapper list.
+3. Open LiveSocial > Remote Merch > Catalog Publisher.
+4. Select that scene model and the LS Merch Page as the reference.
+5. Give it a unique lowercase item ID, such as lsvr-blue-shirt, and a display name.
+   Reusing an existing ID intentionally updates that item.
+6. Click Prepare downloadable item.
+7. Click Build Android merch file.
+8. Click Publish item to GitHub. Wait for the window to confirm success.
+9. Restart the updated app and open Merch. Check the new item on Quest.
+
+The publisher builds only the merch asset, not an APK. It uploads the binary to an
+immutable GitHub Release, verifies the public download against SHA-256, then updates
+catalog.json last. Other catalog items are preserved. GitHub credentials stay in
+the computer's existing Git credential store; they are never included in the APK.
+The repository and the published display assets are public so headsets can download
+them without a GitHub login. Do not publish private files or credentials here.
+
+APPEARANCE AND PLACEMENT
+The prepared model's relative placement, mesh, textures, material properties and
+emission settings are packaged together. A compensation hierarchy preserves the
+authored size despite the menu's very different local axis scales.
+The source material is not edited. The source scene dress remains editable.
+The original dress is marked EditorOnly, so it does not appear permanently over
+the carousel or get included a second time in the APK.
+Supported content: Transform, MeshFilter, MeshRenderer, SkinnedMeshRenderer.
+The existing SlowRotate behavior is captured as metadata and restored by the app.
+This is a merch display loader, not a wearable/avatar inventory system.
+
+OFFLINE AND FAILURE BEHAVIOR
+The built-in items always remain available. Successfully verified downloads and
+their catalog are cached on the headset. If the catalog cannot be reached, its
+last valid cached copy is used. Failed or corrupt downloads are skipped.
+A newly published item needs a successful first download before it works offline.
+If a newer item fails, the built-in items still work; the next app launch retries.
+An enabled=false catalog entry is omitted on the next app session.
+
+COMPATIBILITY
+Keep exporting with Unity 6000.3.17f1, Android, and this project's rendering settings
+for this first APK generation. Different Unity versions/platforms are rejected.
+New item content can be published remotely; new scripts/features still need an APK.
+No third-party package or Addressables installation was necessary.
+Current limits: 64 entries, 64 MiB per bundle, 256 MiB total enabled catalog content.
+
+PURCHASE LINKS
+The first item has purchaseEnabled=false and an empty purchaseUrl.
+The data format and OpenCurrentPurchaseLink method are prepared for a future
+purchase button. This setup does not add an active purchasing flow.
+
+ROLLBACK
+Full verified pre-feature source backup:
+E:\LiveSocialVr2_RestorePoints\20261004-0612-BEFORE-Remote-Merch\Project
+That full backup predates the ray endpoint fix too.
+For a narrow remote-merch rollback that preserves the ray work, use:
+E:\LiveSocialVr2\Backpoints\RemoteMerch-20261004
+It contains the pre-remote-merch MerchItemSwitcher.cs, Landing scene and package
+manifest. Remove only Assets/RemoteMerch and restore the backed-up switcher/scene
+after closing Unity. Keep backups; do not overwrite unrelated newer work.
+
+No APK was built, installed, or uploaded as part of this content setup.
+Real Quest visual acceptance still requires testing the new APK.
