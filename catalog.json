@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "20261004-112230",
+  "unityVersion": "6000.3.17f1",
+  "platform": "Android",
+  "items": [
+    {
+      "id": "lsvr-ip-karaoke-dress-back",
+      "title": "LSVR IP Karaoke Dress — Back",
+      "enabled": true,
+      "bundleUrl": "https://github.com/crookonoculus/LSVR-Merch-Catalog/releases/download/lsvr-ip-karaoke-dress-back-8d093b05a92c/lsvr-ip-karaoke-dress-back.bundle",
+      "sha256": "8d093b05a92c787fa321cfb167fbfeabcab0abee4ee0aa34183b6fb139dd64eb",
+      "bytes": 396301,
+      "crc": 2561008116,
+      "assetName": "assets/remotemerch/content/lsvr-ip-karaoke-dress-back/display.prefab",
+      "purchaseUrl": "",
+      "purchaseEnabled": false,
+      "rotate": true,
+      "rotationAxis": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "rotationSpeed": 30.0
+    }
+  ]
+}
