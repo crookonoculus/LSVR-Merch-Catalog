@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "contentVersion":  "20261007-214811-315",
+    "contentVersion":  "20261007-223917-885",
     "unityVersion":  "6000.3.17f1",
     "platform":  "Android",
     "items":  [
@@ -78,7 +78,7 @@
                          {
                              "id":  "builtin-lsvr-womens-sunday-social-tank",
                              "title":  "LSVR Womens Sunday Social Tank",
-                             "purchaseUrl":  "",
+                             "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1420749379997295",
                              "purchaseEnabled":  false
                          },
                          {
