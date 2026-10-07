@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "contentVersion":  "20261007-213730-445",
+    "contentVersion":  "20261007-214811-315",
     "unityVersion":  "6000.3.17f1",
     "platform":  "Android",
     "items":  [
@@ -14,7 +14,7 @@
                       "crc":  2561008116,
                       "assetName":  "assets/remotemerch/content/lsvr-ip-karaoke-dress-back/display.prefab",
                       "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=3982229988586004",
-                      "purchaseEnabled":  false,
+                      "purchaseEnabled":  true,
                       "rotate":  true,
                       "rotationAxis":  {
                                            "x":  0.0,
