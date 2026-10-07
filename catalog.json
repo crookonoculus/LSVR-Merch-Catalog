@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "contentVersion":  "20261007-200101",
+    "contentVersion":  "20261007-204038-498",
     "unityVersion":  "6000.3.17f1",
     "platform":  "Android",
     "items":  [
@@ -61,5 +61,145 @@
                                        },
                       "rotationSpeed":  30.0
                   }
-              ]
+              ],
+    "builtInItems":  [
+                         {
+                             "id":  "builtin-lsve-velvet-heights-leather-top",
+                             "title":  "LSVE Velvet Heights Leather Top",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-velvet-heights-mens-leather-t",
+                             "title":  "LSVr Velvet Heights Mens Leather T",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-womens-sunday-social-tank",
+                             "title":  "LSVR Womens Sunday Social Tank",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-savoy-bbelly-thin",
+                             "title":  "LSVR Savoy BBelly Thin",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-perform-karaoke-bt",
+                             "title":  "LSVR Perform Karaoke BT",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-perform-karaoke-wt",
+                             "title":  "LSVR Perform Karaoke WT",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-karaoke-bt",
+                             "title":  "LSVR Karaoke BT",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-mens-karaoke-wt",
+                             "title":  "LSVR Mens Karaoke WT",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-leather-karaoke-halter-b",
+                             "title":  "LSVR Leather Karaoke Halter B",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-leather-karaoke-halter-w",
+                             "title":  "LSVR Leather Karaoke Halter W",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-ip-leather-halter-w",
+                             "title":  "LSVR IP Leather Halter W",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-livesocial-bllack-t",
+                             "title":  "LiveSocial Bllack T",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-one-sleeve-dress",
+                             "title":  "LSVR One Sleeve dress",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-ls-vr-workout-2-piece",
+                             "title":  "LS VR Workout 2 Piece",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-short-sleeve-big-logo",
+                             "title":  "LSVR Short Sleeve Big Logo",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-black-big-logo-t",
+                             "title":  "Black Big Logo T",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-black-long-sleeve-big-logo",
+                             "title":  "Black Long Sleeve Big Logo",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-womens-cut-sleeve",
+                             "title":  "LSVR Womens Cut Sleeve",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-womens-mini-skirt",
+                             "title":  "LSVr Womens Mini Skirt",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-sunday-social-shirt",
+                             "title":  "LSVR Sunday Social Shirt",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-lsvr-day-one-t",
+                             "title":  "LSVR Day One T",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-con-kicks-big-logo",
+                             "title":  "Con Kicks Big Logo",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         },
+                         {
+                             "id":  "builtin-con-kicks-long-logo",
+                             "title":  "Con Kicks Long Logo",
+                             "purchaseUrl":  "",
+                             "purchaseEnabled":  false
+                         }
+                     ]
 }
