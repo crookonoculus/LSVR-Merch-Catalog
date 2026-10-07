@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "contentVersion":  "20261004-124918",
+    "contentVersion":  "20261007-200101",
     "unityVersion":  "6000.3.17f1",
     "platform":  "Android",
     "items":  [
@@ -32,6 +32,25 @@
                       "bytes":  764124,
                       "crc":  552894880,
                       "assetName":  "assets/remotemerch/content/lsvr-karaoke-long-sleeve/display.prefab",
+                      "purchaseUrl":  "",
+                      "purchaseEnabled":  false,
+                      "rotate":  true,
+                      "rotationAxis":  {
+                                           "x":  0.0,
+                                           "y":  1.0,
+                                           "z":  0.0
+                                       },
+                      "rotationSpeed":  30.0
+                  },
+                  {
+                      "id":  "lsvr-scorpio-dress",
+                      "title":  "LSVR Scorpio Dress",
+                      "enabled":  true,
+                      "bundleUrl":  "https://github.com/crookonoculus/LSVR-Merch-Catalog/releases/download/lsvr-scorpio-dress-71aeaea14ba0/lsvr-scorpio-dress.bundle",
+                      "sha256":  "71aeaea14ba095ee51e4c49810d9be51641c27228a79db19b7ea6ca21d008248",
+                      "bytes":  322425,
+                      "crc":  255582560,
+                      "assetName":  "assets/remotemerch/content/lsvr-scorpio-dress/display.prefab",
                       "purchaseUrl":  "",
                       "purchaseEnabled":  false,
                       "rotate":  true,
