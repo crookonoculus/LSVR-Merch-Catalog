@@ -27,6 +27,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "lower"
+                  },
+                  {
+                      "id":  "lsvr-logo-cargo-pants-female",
+                      "title":  "LSVR Logo Cargo Pants Female",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-logo-cargo-pants-female-7ccbeeb31493.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1427669175388361",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "lower"
                   }
               ]
 }
