@@ -1,0 +1,14 @@
+{
+    "version":  1,
+    "items":  [
+                  {
+                      "id":  "lsvr-mens-white-libra-t",
+                      "title":  "LSVR Mens White Libra T",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-mens-white-libra-t-b97d7fdab97f.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1881373183228218",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "upper"
+                  }
+              ]
+}
