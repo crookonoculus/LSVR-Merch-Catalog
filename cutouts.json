@@ -45,6 +45,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "head"
+                  },
+                  {
+                      "id":  "lsvr-logo-ball-cap-female",
+                      "title":  "LSVR Logo Ball Cap Female",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-logo-ball-cap-female-0fceabd5a932.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1663074998809254",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "head"
                   }
               ]
 }
