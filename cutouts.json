@@ -54,6 +54,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "lower"
+                  },
+                  {
+                      "id":  "lsvr-logo-kicks-male",
+                      "title":  "LSVR Logo Kicks ",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-logo-kicks-male-311687dcc7bb.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=2068276487129748",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "footwear"
                   }
               ]
 }
