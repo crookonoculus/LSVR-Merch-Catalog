@@ -81,6 +81,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "upper"
+                  },
+                  {
+                      "id":  "lsvr-yoga-tights-female",
+                      "title":  "LSVR Yoga Tights Female",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-yoga-tights-female-a01a11c373e1.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1405663398414010",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "lower"
                   }
               ]
 }
