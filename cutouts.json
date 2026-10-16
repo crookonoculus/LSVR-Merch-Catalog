@@ -90,6 +90,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "lower"
+                  },
+                  {
+                      "id":  "lsvr-yoga-top-female",
+                      "title":  "LSVR Yoga Top Female",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-yoga-top-female-ce13e692735b.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1100029329441750",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "upper"
                   }
               ]
 }
