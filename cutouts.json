@@ -63,6 +63,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "footwear"
+                  },
+                  {
+                      "id":  "lsvr-yoga-female",
+                      "title":  "LSVR Yoga Female",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-yoga-female-3635ac2b3efe.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1451208493774094",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "upper"
                   }
               ]
 }
