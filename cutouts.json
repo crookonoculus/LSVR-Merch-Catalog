@@ -117,6 +117,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "upper"
+                  },
+                  {
+                      "id":  "lsvr-lazy-river-b-suit-white-female",
+                      "title":  "LSVR Lazy River B Suit White",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-lazy-river-b-suit-white-female-d9c79e6785ee.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1665734708579953",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "upper"
                   }
               ]
 }
