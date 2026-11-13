@@ -99,6 +99,15 @@
                       "enabled":  true,
                       "purchaseEnabled":  true,
                       "focusMode":  "upper"
+                  },
+                  {
+                      "id":  "lsvr-lazy-river-body-suit-teal-white-female",
+                      "title":  "LSVR Lazy River Body Suit Teal / White",
+                      "imageUrl":  "https://raw.githubusercontent.com/crookonoculus/LSVR-Merch-Catalog/main/cutouts/lsvr-lazy-river-body-suit-teal-white-female-fc10e3f1cf1c.png",
+                      "purchaseUrl":  "https://horizon.meta.com/avatar/item?id=1701468304868815",
+                      "enabled":  true,
+                      "purchaseEnabled":  true,
+                      "focusMode":  "full"
                   }
               ]
 }
